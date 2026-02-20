@@ -1,6 +1,6 @@
 # SMB Landing Page Skill
 
-A Claude Code skill that helps small business owners create a landing page outline through a short interview.
+A skill for Claude Code, OpenCode, and Nanobot that helps small business owners create a landing page outline through a short interview.
 
 ## What It Does
 
@@ -23,14 +23,34 @@ The outline is a planning document you can hand to a web designer, use in a webs
 
 ## Install
 
-### From Claude Code
+### Claude Code
 
 ```
 /plugin marketplace add CyranoB/smb-skill
 /plugin install smb-landing-page@smb-landing-page-marketplace
 ```
 
-### Manual install
+### OpenCode
+
+OpenCode reads from `~/.claude/skills/` natively, so the skill installs the same way:
+
+```bash
+git clone https://github.com/CyranoB/smb-skill.git
+mkdir -p ~/.config/opencode/skills/smb-landing-page
+cp -r smb-skill/skills/smb-landing-page/* ~/.config/opencode/skills/smb-landing-page/
+```
+
+### Nanobot
+
+Nanobot reads Claude-compatible skills from `~/.claude/skills/`:
+
+```bash
+git clone https://github.com/CyranoB/smb-skill.git
+mkdir -p ~/.claude/skills/smb-landing-page
+cp -r smb-skill/skills/smb-landing-page/* ~/.claude/skills/smb-landing-page/
+```
+
+### Manual install (any agent)
 
 ```bash
 git clone https://github.com/CyranoB/smb-skill.git
