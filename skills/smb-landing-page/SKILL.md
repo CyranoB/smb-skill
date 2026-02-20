@@ -8,8 +8,10 @@ description: >-
   business. Triggers on requests like "create a landing page for my business,"
   "I need a website outline," "help me plan my business website," "landing page
   for my plumbing company," "website outline for my salon," "I need a homepage
-  for my car wash," "help me with my small business website," or "create a page
-  for my babysitting service."
+  for my car wash," "help me with my small business website," "create a page
+  for my babysitting service," "page for my piano teaching business," "website
+  for my photography business," "landing page for my tutoring services," or
+  "I need a website for my DJ business."
 ---
 
 # SMB Landing Page Outline

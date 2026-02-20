@@ -12,26 +12,28 @@ The outline is a planning document you can hand to a web designer, use in a webs
 
 ## Supported Business Types
 
-- **Home / Personal Services** — babysitters, house cleaners, dog walkers, tutors
-- **Skilled Trades** — plumbers, electricians, HVAC, roofers, handymen
+- **Home / Personal Services** — babysitters, house cleaners, dog walkers, nannies, pet sitters, personal organizers
+- **Skilled Trades** — plumbers, electricians, HVAC, roofers, handymen, pressure washers
 - **Retail / Storefront** — salons, barbershops, bakeries, boutiques, florists
 - **Food & Beverage** — restaurants, cafes, food trucks, caterers
-- **Professional Services** — accountants, lawyers, consultants, photographers
-- **Fitness / Wellness** — personal trainers, yoga studios, massage therapists
+- **Professional Services** — accountants, lawyers, consultants, bookkeepers, notaries, translators
+- **Fitness / Wellness** — personal trainers, yoga studios, massage therapists, nutritionists
+- **Teaching / Lessons** — piano teachers, math tutors, language instructors, driving instructors, dance teachers
+- **Creative / Events** — photographers, videographers, DJs, event planners, makeup artists
 
 ## Install
 
 ### From Claude Code
 
 ```
-/plugin marketplace add eddie/smb-skill
+/plugin marketplace add CyranoB/smb-skill
 /plugin install smb-landing-page@smb-landing-page-marketplace
 ```
 
 ### Manual install
 
 ```bash
-git clone https://github.com/eddie/smb-skill.git
+git clone https://github.com/CyranoB/smb-skill.git
 mkdir -p ~/.claude/skills/smb-landing-page
 cp -r smb-skill/skills/smb-landing-page/* ~/.claude/skills/smb-landing-page/
 ```

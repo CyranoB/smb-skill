@@ -18,12 +18,14 @@ After the user describes their business, classify it into one of these archetype
 
 | Archetype | Examples | Key Trait |
 |---|---|---|
-| **Home / Personal Services** | Babysitter, house cleaner, dog walker, tutor, nanny, pet sitter | Goes to the customer's location; schedule-based availability |
-| **Skilled Trades** | Plumber, electrician, HVAC, roofer, handyman, painter, locksmith | Licensed/insured work; emergency and scheduled jobs |
+| **Home / Personal Services** | Babysitter, house cleaner, dog walker, nanny, pet sitter, errand runner, elderly companion, house sitter, personal organizer, moving helper | Goes to the customer's location; schedule-based availability |
+| **Skilled Trades** | Plumber, electrician, HVAC, roofer, handyman, painter, locksmith, pressure washer, carpet cleaner, window cleaner, fence installer, appliance repair | Licensed/insured work; emergency and scheduled jobs |
 | **Retail / Storefront** | Salon, barbershop, bakery, boutique, florist, dry cleaner | Fixed location with walk-in or appointment hours |
 | **Food & Beverage** | Restaurant, cafe, food truck, caterer, meal prep, juice bar | Menu-driven; dine-in, takeout, delivery, or catering |
-| **Professional Services** | Accountant, lawyer, consultant, photographer, real estate agent | Expertise-based; appointments or project engagements |
-| **Fitness / Wellness** | Personal trainer, yoga studio, massage therapist, chiropractor | Class schedules, memberships, certifications |
+| **Professional Services** | Accountant, lawyer, consultant, real estate agent, bookkeeper, notary, translator, resume writer, virtual assistant | Expertise-based; appointments or project engagements |
+| **Fitness / Wellness** | Personal trainer, yoga studio, massage therapist, chiropractor, nutritionist, acupuncturist, physical therapist, meditation teacher, prenatal coach | Class schedules, memberships, certifications |
+| **Teaching / Lessons** | Piano teacher, math tutor, language tutor, music instructor, art teacher, driving instructor, swim instructor, SAT prep tutor, coding instructor, dance teacher | Skill-based instruction sold per session or package; in-person, at student's location, or virtual |
+| **Creative / Events** | Photographer, videographer, DJ, event planner, face painter, balloon artist, makeup artist, calligrapher, illustrator, tattoo artist | Portfolio-driven; booked for specific occasions or projects; visual work samples are critical |
 
 If a business straddles two archetypes, pick the one that best matches their primary revenue model. If truly ambiguous, ask the user.
 
@@ -75,6 +77,21 @@ After detecting the archetype, ask the relevant follow-ups below. Skip any quest
 - What certifications do you hold?
 - Do you offer packages, memberships, or drop-in rates?
 - Do you work in-person, virtually, or both?
+
+**Teaching / Lessons**
+- What subjects or skills do you teach?
+- What ages or levels do you work with? (Beginners, advanced, kids, adults?)
+- Do you teach in-person, online, or both?
+- Where do lessons happen? (Your home, student's home, a studio, online?)
+- What is your teaching background or qualifications?
+- Do you offer trial lessons?
+
+**Creative / Events**
+- What type of work do you specialize in? (Weddings, portraits, corporate, parties, etc.)
+- Do you have a portfolio or sample work you'd like to highlight?
+- How far in advance do clients typically book you?
+- Do you offer packages or custom quotes?
+- What's your coverage area for events?
 
 ### Round 2 — Optional (offer to all archetypes)
 
@@ -152,6 +169,8 @@ Generate each section using the template below. Adapt, skip, or merge sections b
   - Home Services: "Background Checked," "CPR Certified," "Flexible Scheduling"
   - Professional: "15 Years of Experience," "Free Initial Consultation," "Specializing in [Niche]"
   - Food: "Locally Sourced Ingredients," "Family Recipes Since 1995," "4.8★ on Google"
+  - Teaching: "10+ Years Teaching Experience," "Conservatory-Trained," "95% of Students Pass Their Exam," "Free Trial Lesson"
+  - Creative/Events: "500+ Events Photographed," "Featured in [Publication]," "Award-Winning Portfolio," "Same-Week Turnaround"
 
 #### 5. Testimonials / Social Proof
 
@@ -208,6 +227,8 @@ Generate each section using the template below. Adapt, skip, or merge sections b
   - Home Services: "Are you background checked?" "What ages do you work with?" "What's your cancellation policy?"
   - Fitness: "Do I need to bring my own equipment?" "Do you offer trial sessions?" "Can I freeze my membership?"
   - Professional: "What does a typical engagement look like?" "Do you offer payment plans?"
+  - Teaching: "Do you offer a free trial lesson?" "What ages do you teach?" "How long is a typical lesson?" "What should my child bring to the first lesson?" "Do you prepare students for exams or recitals?"
+  - Creative/Events: "How far in advance should I book?" "Do you require a deposit?" "What's the turnaround time?" "Do you travel to my location?" "What happens if the event is rained out?"
 
 #### 10. Contact / Final CTA
 
@@ -236,15 +257,15 @@ Generate each section using the template below. Adapt, skip, or merge sections b
 
 Quick-reference table for which sections to include and how to adapt them.
 
-| Section | Home Services | Trades | Retail / Storefront | Food & Bev | Professional | Fitness |
-|---|---|---|---|---|---|---|
-| **Hero CTA** | "Book Now" / "Contact Me" | "Call Now" / "Get a Free Quote" | "Visit Us" / "Book an Appointment" | "View Menu" / "Order Now" | "Schedule a Consultation" | "Join Now" / "Book a Class" |
-| **Services** | Specific service list | Top 3-5 services | Services + pricing optional | Menu highlights | Practice areas | Class types / offerings |
-| **Hours** | Skip (by availability) | Emergency note + "Call anytime" | Full hours table | Full hours table | By appointment note | Class schedule |
-| **Pricing** | Optional | "Free Estimates" CTA | Show if provided | Menu with prices | "Free Consultation" CTA | Packages / memberships |
-| **Credentials** | Background check, certifications | License, insurance, bonding | Awards, years in business | Health permits, awards | Degrees, bar admission, certifications | Certifications, specializations |
-| **Social Proof** | Parent reviews, references | Before/after, Google reviews | Yelp/Google reviews, awards | Food critic quotes, reviews | Case results, client testimonials | Transformation stories, reviews |
-| **FAQ focus** | Availability, cancellation, ages | Estimates, emergencies, warranty | Walk-ins, returns, gift cards | Reservations, dietary, catering | Process, fees, timeline | Trials, equipment, cancellation |
+| Section | Home Services | Trades | Retail / Storefront | Food & Bev | Professional | Fitness | Teaching | Creative / Events |
+|---|---|---|---|---|---|---|---|---|
+| **Hero CTA** | "Book Now" / "Contact Me" | "Call Now" / "Get a Free Quote" | "Visit Us" / "Book an Appointment" | "View Menu" / "Order Now" | "Schedule a Consultation" | "Join Now" / "Book a Class" | "Book a Lesson" / "Schedule a Free Trial" | "View Portfolio" / "Book Your Date" |
+| **Services** | Specific service list | Top 3-5 services | Services + pricing optional | Menu highlights | Practice areas | Class types / offerings | Subjects, levels, lesson formats | Specialties with package descriptions |
+| **Hours** | Skip (by availability) | Emergency note + "Call anytime" | Full hours table | Full hours table | By appointment note | Class schedule | By appointment / schedule availability | Skip (booking-based) |
+| **Pricing** | Optional | "Free Estimates" CTA | Show if provided | Menu with prices | "Free Consultation" CTA | Packages / memberships | Per-lesson + package rates | Package tiers or "Request a Quote" CTA |
+| **Credentials** | Background check, certifications | License, insurance, bonding | Awards, years in business | Health permits, awards | Degrees, bar admission, certifications | Certifications, specializations | Degrees, teaching certs, performance experience | Awards, publications, notable clients |
+| **Social Proof** | Parent reviews, references | Before/after, Google reviews | Yelp/Google reviews, awards | Food critic quotes, reviews | Case results, client testimonials | Transformation stories, reviews | Student/parent testimonials, student achievements | Client testimonials, "as seen in" press mentions |
+| **FAQ focus** | Availability, cancellation, ages | Estimates, emergencies, warranty | Walk-ins, returns, gift cards | Reservations, dietary, catering | Process, fees, timeline | Trials, equipment, cancellation | Trial lessons, cancellation, what to bring, progress | Booking timeline, deposits, turnaround, travel fees |
 
 ---
 
