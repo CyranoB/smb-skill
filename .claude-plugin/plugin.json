@@ -1,0 +1,10 @@
+{
+  "name": "smb-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page outline generator for small and local businesses — interview-driven, archetype-aware",
+  "author": {
+    "name": "eddie"
+  },
+  "license": "MIT",
+  "keywords": ["small-business", "landing-page", "local-business", "smb", "website"]
+}

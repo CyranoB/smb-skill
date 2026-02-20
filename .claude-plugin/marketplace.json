@@ -1,0 +1,18 @@
+{
+  "name": "smb-landing-page-marketplace",
+  "owner": {
+    "name": "eddie"
+  },
+  "metadata": {
+    "description": "Landing page outline skills for small and local businesses"
+  },
+  "plugins": [
+    {
+      "name": "smb-landing-page",
+      "source": "./",
+      "description": "Landing page outline generator for small and local businesses — interview-driven, archetype-aware",
+      "version": "1.0.0",
+      "keywords": ["small-business", "landing-page", "local-business", "smb", "website"]
+    }
+  ]
+}
