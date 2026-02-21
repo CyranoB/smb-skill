@@ -1,4 +1,4 @@
-# SMB Landing Page — Reference Prompts
+# Small Business Landing Page — Reference Prompts
 
 This document is the reference guide for the `small-biz-landing-page` skill. Use it to detect business type, guide the interview, and generate the outline. It is read during execution — it is not shown to the user.
 
@@ -154,7 +154,7 @@ Generate each section using the template below. Adapt, skip, or merge sections b
 
 #### 3. About / Our Story
 
-> Purpose: Build trust through human connection. SMBs win on personality.
+> Purpose: Build trust through human connection. Small businesses win on personality.
 
 - **Content:** Owner's name, how long they've been doing this, what makes them passionate about the work, any family or community angle.
 - **Voice:** First person. "I started this business because…" is more effective than "Founded in 2015, XYZ Corp…"
@@ -236,7 +236,7 @@ Generate each section using the template below. Adapt, skip, or merge sections b
 
 > Purpose: Convert. This is the last chance.
 
-- **Phone number:** Prominent, click-to-call on mobile. Most SMB customers still prefer to call.
+- **Phone number:** Prominent, click-to-call on mobile. Most small business customers still prefer to call.
 - **Email address**
 - **Contact form suggestion:** Name, phone, brief message. Keep it short — long forms kill conversions.
 - **Physical address:** If applicable (storefront businesses).

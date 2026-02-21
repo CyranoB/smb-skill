@@ -14,7 +14,7 @@ description: >-
   "I need a website for my DJ business."
 ---
 
-# SMB Landing Page Outline
+# Small Business Landing Page Outline
 
 Generate a landing page outline for a small or local business through a short interview.
 
