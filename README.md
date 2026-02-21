@@ -1,4 +1,4 @@
-# SMB Landing Page Skill
+# Small Business Landing Page Skill
 
 A skill for Claude Code, OpenCode, and Nanobot that helps small business owners create a landing page outline through a short interview.
 
