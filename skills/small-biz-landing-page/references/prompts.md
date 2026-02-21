@@ -1,6 +1,6 @@
 # SMB Landing Page — Reference Prompts
 
-Output formats, interview guidance, and domain knowledge for generating small business landing page outlines.
+This document is the reference guide for the `small-biz-landing-page` skill. Use it to detect business type, guide the interview, and generate the outline. It is read during execution — it is not shown to the user.
 
 ## Table of Contents
 
@@ -27,7 +27,7 @@ After the user describes their business, classify it into one of these archetype
 | **Teaching / Lessons** | Piano teacher, math tutor, language tutor, music instructor, art teacher, driving instructor, swim instructor, SAT prep tutor, coding instructor, dance teacher | Skill-based instruction sold per session or package; in-person, at student's location, or virtual |
 | **Creative / Events** | Photographer, videographer, DJ, event planner, face painter, balloon artist, makeup artist, calligrapher, illustrator, tattoo artist | Portfolio-driven; booked for specific occasions or projects; visual work samples are critical |
 
-If a business straddles two archetypes, pick the one that best matches their primary revenue model. If truly ambiguous, ask the user.
+If a business straddles two archetypes, pick the one that best matches their primary revenue model. If truly ambiguous, ask a natural question like: "Are you primarily teaching a skill to individuals, creating work for events/clients, or something else?" — then classify from their answer.
 
 ---
 
@@ -106,6 +106,8 @@ After detecting the archetype, ask the relevant follow-ups below. Skip any quest
 - If the user volunteers a lot of information upfront, acknowledge it and only ask what's still missing.
 - Keep round 2 short — 3-5 follow-up questions plus the optional ones. Don't overwhelm.
 - If the user is unsure about an answer, help them with examples from their archetype (e.g., "Most plumbers highlight licensed & insured, free estimates, and same-day service — does any of that apply to you?").
+
+**After the interview:** Once you have sufficient answers from both rounds — or if the user provided enough information upfront — proceed directly to Phase 2 outline generation. Do not ask for permission to proceed. Do not summarize the interview back to the user.
 
 ---
 

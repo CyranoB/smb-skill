@@ -24,6 +24,8 @@ Read [references/prompts.md](references/prompts.md) before generating any conten
 
 ### Phase 1: Smart Interview
 
+> Reference sections: **Business Archetype Detection** and **Interview Questions** in prompts.md.
+
 Collect the information needed to generate the outline. Two rounds maximum.
 
 **Round 1 — Ask these five questions:**
@@ -44,10 +46,12 @@ Present the questions conversationally, not as a numbered form. If the user volu
 
 ### Phase 2: Generate Outline
 
+> Reference sections: **Landing Page Outline Format**, **Business Type Adaptations**, and **Copy Tone Guidelines** in prompts.md.
+
 Once you have enough information:
 
 1. Read the section specifications and adaptation table in prompts.md.
-2. Generate the full landing page outline, adapting sections to the business archetype.
+2. Generate the full landing page outline in a single response, in order from Section 1 through Section 11, adapting sections to the business archetype.
 3. Skip sections that don't apply (e.g., no "Hours" for a babysitter, no "Pricing" if the owner opted out).
 4. Use the owner's actual details — not generic placeholders or lorem ipsum.
 5. Follow the copy tone guidelines in prompts.md: friendly, local, plain language.
