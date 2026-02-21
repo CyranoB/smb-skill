@@ -4,17 +4,17 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Is
 
-A Claude Code skill plugin (`smb-landing-page`) that generates landing page outlines for small/local businesses. No build system, no runtime code — the project is entirely markdown-based skill definitions and plugin config.
+A Claude Code skill plugin (`small-biz-landing-page`) that generates landing page outlines for small/local businesses. No build system, no runtime code — the project is entirely markdown-based skill definitions and plugin config.
 
 ## Project Structure
 
-- `skills/smb-landing-page/SKILL.md` — Skill entry point. Defines the two-phase workflow (interview → outline) and YAML frontmatter for skill triggering.
-- `skills/smb-landing-page/references/prompts.md` — The core reference file. Contains archetype detection, interview questions, all 11 landing page section specs, adaptation tables, and tone guidelines. SKILL.md references this file; they must stay in sync.
-- `.claude-plugin/plugin.json` + `marketplace.json` — Plugin metadata for Claude Code discovery. The `name` field in plugin.json must match the skill directory name (`smb-landing-page`).
+- `skills/small-biz-landing-page/SKILL.md` — Skill entry point. Defines the two-phase workflow (interview → outline) and YAML frontmatter for skill triggering.
+- `skills/small-biz-landing-page/references/prompts.md` — The core reference file. Contains archetype detection, interview questions, all 11 landing page section specs, adaptation tables, and tone guidelines. SKILL.md references this file; they must stay in sync.
+- `.claude-plugin/plugin.json` + `marketplace.json` — Plugin metadata for Claude Code discovery. The `name` field in plugin.json must match the skill directory name (`small-biz-landing-page`).
 
 ## Key Conventions
 
-**Naming consistency:** The plugin name `smb-landing-page` appears in plugin.json, marketplace.json, and as the skill directory name. These must all match.
+**Naming consistency:** The plugin name `small-biz-landing-page` appears in plugin.json, marketplace.json, and as the skill directory name. These must all match.
 
 **Eight business archetypes** drive the adaptive behavior: Home/Personal Services, Skilled Trades, Retail/Storefront, Food & Beverage, Professional Services, Fitness/Wellness, Teaching/Lessons, Creative/Events. When adding new section logic or interview questions, update both the archetype-specific sections in prompts.md AND the adaptation table at the bottom of that file.
 

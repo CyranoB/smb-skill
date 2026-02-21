@@ -27,7 +27,7 @@ The outline is a planning document you can hand to a web designer, use in a webs
 
 ```
 /plugin marketplace add CyranoB/smb-skill
-/plugin install smb-landing-page@smb-landing-page-marketplace
+/plugin install small-biz-landing-page@small-biz-landing-page-marketplace
 ```
 
 ### OpenCode
@@ -36,8 +36,8 @@ OpenCode reads from `~/.claude/skills/` natively, so the skill installs the same
 
 ```bash
 git clone https://github.com/CyranoB/smb-skill.git
-mkdir -p ~/.config/opencode/skills/smb-landing-page
-cp -r smb-skill/skills/smb-landing-page/* ~/.config/opencode/skills/smb-landing-page/
+mkdir -p ~/.config/opencode/skills/small-biz-landing-page
+cp -r smb-skill/skills/small-biz-landing-page/* ~/.config/opencode/skills/small-biz-landing-page/
 ```
 
 ### Nanobot
@@ -46,16 +46,16 @@ Nanobot reads Claude-compatible skills from `~/.claude/skills/`:
 
 ```bash
 git clone https://github.com/CyranoB/smb-skill.git
-mkdir -p ~/.claude/skills/smb-landing-page
-cp -r smb-skill/skills/smb-landing-page/* ~/.claude/skills/smb-landing-page/
+mkdir -p ~/.claude/skills/small-biz-landing-page
+cp -r smb-skill/skills/small-biz-landing-page/* ~/.claude/skills/small-biz-landing-page/
 ```
 
 ### Manual install (any agent)
 
 ```bash
 git clone https://github.com/CyranoB/smb-skill.git
-mkdir -p ~/.claude/skills/smb-landing-page
-cp -r smb-skill/skills/smb-landing-page/* ~/.claude/skills/smb-landing-page/
+mkdir -p ~/.claude/skills/small-biz-landing-page
+cp -r smb-skill/skills/small-biz-landing-page/* ~/.claude/skills/small-biz-landing-page/
 ```
 
 ## Usage
@@ -74,7 +74,7 @@ Ask Claude anything related to creating a small business website:
 ├── plugin.json               # Plugin metadata
 └── marketplace.json          # Marketplace manifest
 skills/
-└── smb-landing-page/
+└── small-biz-landing-page/
     ├── SKILL.md              # Workflow and interview protocol
     └── references/
         └── prompts.md        # Output formats and business type guidance

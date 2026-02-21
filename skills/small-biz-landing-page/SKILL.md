@@ -1,5 +1,5 @@
 ---
-name: smb-landing-page
+name: small-biz-landing-page
 description: >-
   Landing page outline generator for small and local businesses. Conducts a
   short interview to learn about the business, then produces a structured

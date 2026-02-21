@@ -1,5 +1,5 @@
 {
-  "name": "smb-landing-page-marketplace",
+  "name": "small-biz-landing-page-marketplace",
   "owner": {
     "name": "eddie"
   },
@@ -8,7 +8,7 @@
   },
   "plugins": [
     {
-      "name": "smb-landing-page",
+      "name": "small-biz-landing-page",
       "source": "./",
       "description": "Landing page outline generator for small and local businesses — interview-driven, archetype-aware",
       "version": "1.0.0",
