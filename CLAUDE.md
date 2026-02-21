@@ -8,8 +8,8 @@ A Claude Code skill plugin (`small-biz-landing-page`) that generates landing pag
 
 ## Project Structure
 
-- `skills/small-biz-landing-page/SKILL.md` — Skill entry point. Defines the two-phase workflow (interview → outline) and YAML frontmatter for skill triggering.
-- `skills/small-biz-landing-page/references/prompts.md` — The core reference file. Contains archetype detection, interview questions, all 11 landing page section specs, adaptation tables, and tone guidelines. SKILL.md references this file; they must stay in sync.
+- `skills/small-biz-landing-page/SKILL.md` — Skill entry point. Defines the two-phase workflow (interview → outline), YAML frontmatter for skill triggering, and explicit section-reference blockquotes on each phase header pointing into prompts.md.
+- `skills/small-biz-landing-page/references/prompts.md` — The core reference file. Opens with a role anchor (first non-heading text), then contains archetype detection (with disambiguation example), interview questions, a post-interview transition note, all 11 landing page section specs, adaptation tables, and tone guidelines. SKILL.md references this file; they must stay in sync.
 - `.claude-plugin/plugin.json` + `marketplace.json` — Plugin metadata for Claude Code discovery. The `name` field in plugin.json must match the skill directory name (`small-biz-landing-page`).
 
 ## Key Conventions
@@ -23,3 +23,5 @@ A Claude Code skill plugin (`small-biz-landing-page`) that generates landing pag
 ## Making Changes
 
 When editing prompts.md section specifications, check the adaptation table stays consistent. When editing SKILL.md workflow phases, verify the interview question references in prompts.md still match. The two files are tightly coupled.
+
+If you rename a top-level section in prompts.md, update the phase-reference blockquotes in SKILL.md to match: Phase 1 references **Business Archetype Detection** and **Interview Questions**; Phase 2 references **Landing Page Outline Format**, **Business Type Adaptations**, and **Copy Tone Guidelines**.

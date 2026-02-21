@@ -75,7 +75,7 @@ Ask Claude anything related to creating a small business website:
 └── marketplace.json          # Marketplace manifest
 skills/
 └── small-biz-landing-page/
-    ├── SKILL.md              # Workflow and interview protocol
+    ├── SKILL.md              # Two-phase workflow: interview → outline, with section refs per phase
     └── references/
-        └── prompts.md        # Output formats and business type guidance
+        └── prompts.md        # Archetype detection, interview questions, 11 section specs, adaptation table
 ```
